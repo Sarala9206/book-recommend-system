@@ -1,0 +1,6 @@
+python = 3.8.0
+#pandas
+#flask
+#numpy
+#pandas
+#gunicorn

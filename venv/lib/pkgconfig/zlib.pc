@@ -1,0 +1,13 @@
+prefix=/Users/penjarlasarala/Desktop/visual studio/AI/book-recommend-system/venv
+exec_prefix=/Users/penjarlasarala/Desktop/visual studio/AI/book-recommend-system/venv
+libdir=/Users/penjarlasarala/Desktop/visual studio/AI/book-recommend-system/venv/lib
+sharedlibdir=/Users/penjarlasarala/Desktop/visual studio/AI/book-recommend-system/venv/lib
+includedir=/Users/penjarlasarala/Desktop/visual studio/AI/book-recommend-system/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

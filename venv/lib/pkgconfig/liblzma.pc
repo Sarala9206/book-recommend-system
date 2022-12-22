@@ -1,0 +1,19 @@
+#
+# Author: Lasse Collin
+#
+# This file has been put into the public domain.
+# You can do whatever you want with this file.
+#
+
+prefix=/Users/penjarlasarala/Desktop/visual studio/AI/book-recommend-system/venv
+exec_prefix=/Users/penjarlasarala/Desktop/visual studio/AI/book-recommend-system/venv
+libdir=/Users/penjarlasarala/Desktop/visual studio/AI/book-recommend-system/venv/lib
+includedir=/Users/penjarlasarala/Desktop/visual studio/AI/book-recommend-system/venv/include
+
+Name: liblzma
+Description: General purpose data compression library
+URL: https://tukaani.org/xz/
+Version: 5.2.8
+Cflags: -I${includedir}
+Libs: -L${libdir} -llzma
+Libs.private: -pthread -lpthread
